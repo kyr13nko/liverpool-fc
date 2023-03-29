@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  height: 624px;
+  width: 952px;
+  background-image: url(../images/23-diaz.png), url(../images/11-salah.png),
+    url(../images/27-darwin.png), url(../images/06-thiago.png),
+    url(../images/14-henderson.png), url(../images/03-fabinho.png),
+    url(../images/26-robertson.png), url(../images/04-van-dijk.png),
+    url(../images/05-konate.png), url(../images/66-trent.png),
+    url(../images/01-alisson.png), url(../images/00-klopp.png),
+    url(../images/football-field.jpg);
+  background-repeat: no-repeat;
+  background-position: right 390px bottom 90px, right 390px top 90px,
+    right 370px center, right 260px bottom 150px, right 260px top 150px,
+    right 220px center, right 110px bottom 70px, right 110px bottom 200px,
+    right 110px top 200px, right 110px top 70px, right 20px center,
+    left 73% bottom, center center;
+  background-size: 80px 80px, 80px 80px, 80px 80px, 80px 80px, 80px 80px,
+    80px 80px, 80px 80px, 80px 80px, 80px 80px, 80px 80px, 80px 80px,
+    100px 100px, cover;
+}
